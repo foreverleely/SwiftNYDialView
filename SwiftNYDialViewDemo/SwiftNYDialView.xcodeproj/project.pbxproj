@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4C021BA21786E230050BBD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C021B921786E230050BBD8 /* AppDelegate.swift */; };
+		B4C021BC21786E230050BBD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C021BB21786E230050BBD8 /* ViewController.swift */; };
+		B4C021BF21786E230050BBD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C021BD21786E230050BBD8 /* Main.storyboard */; };
+		B4C021C121786E230050BBD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C021C021786E230050BBD8 /* Assets.xcassets */; };
+		B4C021C421786E230050BBD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C021C221786E230050BBD8 /* LaunchScreen.storyboard */; };
+		B4C021CF21786E240050BBD8 /* SwiftNYDialViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C021CE21786E240050BBD8 /* SwiftNYDialViewTests.swift */; };
+		B4C021DA21786E240050BBD8 /* SwiftNYDialViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C021D921786E240050BBD8 /* SwiftNYDialViewUITests.swift */; };
+		B4C021E821786E840050BBD8 /* NYDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C021E721786E840050BBD8 /* NYDialView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4C021CB21786E240050BBD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4C021AE21786E230050BBD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4C021B521786E230050BBD8;
+			remoteInfo = SwiftNYDialView;
+		};
+		B4C021D621786E240050BBD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4C021AE21786E230050BBD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4C021B521786E230050BBD8;
+			remoteInfo = SwiftNYDialView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4C021B621786E230050BBD8 /* SwiftNYDialView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNYDialView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C021B921786E230050BBD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4C021BB21786E230050BBD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4C021BE21786E230050BBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4C021C021786E230050BBD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4C021C321786E230050BBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4C021C521786E230050BBD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4C021CA21786E240050BBD8 /* SwiftNYDialViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftNYDialViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C021CE21786E240050BBD8 /* SwiftNYDialViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNYDialViewTests.swift; sourceTree = "<group>"; };
+		B4C021D021786E240050BBD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4C021D521786E240050BBD8 /* SwiftNYDialViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftNYDialViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C021D921786E240050BBD8 /* SwiftNYDialViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNYDialViewUITests.swift; sourceTree = "<group>"; };
+		B4C021DB21786E240050BBD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4C021E721786E840050BBD8 /* NYDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYDialView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4C021B321786E230050BBD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C021C721786E240050BBD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C021D221786E240050BBD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4C021AD21786E230050BBD8 = {
+			isa = PBXGroup;
+			children = (
+				B4C021B821786E230050BBD8 /* SwiftNYDialView */,
+				B4C021CD21786E240050BBD8 /* SwiftNYDialViewTests */,
+				B4C021D821786E240050BBD8 /* SwiftNYDialViewUITests */,
+				B4C021B721786E230050BBD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4C021B721786E230050BBD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4C021B621786E230050BBD8 /* SwiftNYDialView.app */,
+				B4C021CA21786E240050BBD8 /* SwiftNYDialViewTests.xctest */,
+				B4C021D521786E240050BBD8 /* SwiftNYDialViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4C021B821786E230050BBD8 /* SwiftNYDialView */ = {
+			isa = PBXGroup;
+			children = (
+				B4C021E721786E840050BBD8 /* NYDialView.swift */,
+				B4C021B921786E230050BBD8 /* AppDelegate.swift */,
+				B4C021BB21786E230050BBD8 /* ViewController.swift */,
+				B4C021BD21786E230050BBD8 /* Main.storyboard */,
+				B4C021C021786E230050BBD8 /* Assets.xcassets */,
+				B4C021C221786E230050BBD8 /* LaunchScreen.storyboard */,
+				B4C021C521786E230050BBD8 /* Info.plist */,
+			);
+			path = SwiftNYDialView;
+			sourceTree = "<group>";
+		};
+		B4C021CD21786E240050BBD8 /* SwiftNYDialViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4C021CE21786E240050BBD8 /* SwiftNYDialViewTests.swift */,
+				B4C021D021786E240050BBD8 /* Info.plist */,
+			);
+			path = SwiftNYDialViewTests;
+			sourceTree = "<group>";
+		};
+		B4C021D821786E240050BBD8 /* SwiftNYDialViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4C021D921786E240050BBD8 /* SwiftNYDialViewUITests.swift */,
+				B4C021DB21786E240050BBD8 /* Info.plist */,
+			);
+			path = SwiftNYDialViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4C021B521786E230050BBD8 /* SwiftNYDialView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4C021DE21786E240050BBD8 /* Build configuration list for PBXNativeTarget "SwiftNYDialView" */;
+			buildPhases = (
+				B4C021B221786E230050BBD8 /* Sources */,
+				B4C021B321786E230050BBD8 /* Frameworks */,
+				B4C021B421786E230050BBD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftNYDialView;
+			productName = SwiftNYDialView;
+			productReference = B4C021B621786E230050BBD8 /* SwiftNYDialView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4C021C921786E240050BBD8 /* SwiftNYDialViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4C021E121786E240050BBD8 /* Build configuration list for PBXNativeTarget "SwiftNYDialViewTests" */;
+			buildPhases = (
+				B4C021C621786E240050BBD8 /* Sources */,
+				B4C021C721786E240050BBD8 /* Frameworks */,
+				B4C021C821786E240050BBD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4C021CC21786E240050BBD8 /* PBXTargetDependency */,
+			);
+			name = SwiftNYDialViewTests;
+			productName = SwiftNYDialViewTests;
+			productReference = B4C021CA21786E240050BBD8 /* SwiftNYDialViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4C021D421786E240050BBD8 /* SwiftNYDialViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4C021E421786E240050BBD8 /* Build configuration list for PBXNativeTarget "SwiftNYDialViewUITests" */;
+			buildPhases = (
+				B4C021D121786E240050BBD8 /* Sources */,
+				B4C021D221786E240050BBD8 /* Frameworks */,
+				B4C021D321786E240050BBD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4C021D721786E240050BBD8 /* PBXTargetDependency */,
+			);
+			name = SwiftNYDialViewUITests;
+			productName = SwiftNYDialViewUITests;
+			productReference = B4C021D521786E240050BBD8 /* SwiftNYDialViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4C021AE21786E230050BBD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = liyang;
+				TargetAttributes = {
+					B4C021B521786E230050BBD8 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					B4C021C921786E240050BBD8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B4C021B521786E230050BBD8;
+					};
+					B4C021D421786E240050BBD8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B4C021B521786E230050BBD8;
+					};
+				};
+			};
+			buildConfigurationList = B4C021B121786E230050BBD8 /* Build configuration list for PBXProject "SwiftNYDialView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4C021AD21786E230050BBD8;
+			productRefGroup = B4C021B721786E230050BBD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4C021B521786E230050BBD8 /* SwiftNYDialView */,
+				B4C021C921786E240050BBD8 /* SwiftNYDialViewTests */,
+				B4C021D421786E240050BBD8 /* SwiftNYDialViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4C021B421786E230050BBD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C021C421786E230050BBD8 /* LaunchScreen.storyboard in Resources */,
+				B4C021C121786E230050BBD8 /* Assets.xcassets in Resources */,
+				B4C021BF21786E230050BBD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C021C821786E240050BBD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C021D321786E240050BBD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4C021B221786E230050BBD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C021BC21786E230050BBD8 /* ViewController.swift in Sources */,
+				B4C021BA21786E230050BBD8 /* AppDelegate.swift in Sources */,
+				B4C021E821786E840050BBD8 /* NYDialView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C021C621786E240050BBD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C021CF21786E240050BBD8 /* SwiftNYDialViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C021D121786E240050BBD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C021DA21786E240050BBD8 /* SwiftNYDialViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4C021CC21786E240050BBD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4C021B521786E230050BBD8 /* SwiftNYDialView */;
+			targetProxy = B4C021CB21786E240050BBD8 /* PBXContainerItemProxy */;
+		};
+		B4C021D721786E240050BBD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4C021B521786E230050BBD8 /* SwiftNYDialView */;
+			targetProxy = B4C021D621786E240050BBD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4C021BD21786E230050BBD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4C021BE21786E230050BBD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4C021C221786E230050BBD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4C021C321786E230050BBD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4C021DC21786E240050BBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4C021DD21786E240050BBD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4C021DF21786E240050BBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D56T97Z29X;
+				INFOPLIST_FILE = SwiftNYDialView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.SwiftNYDialView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4C021E021786E240050BBD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D56T97Z29X;
+				INFOPLIST_FILE = SwiftNYDialView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.SwiftNYDialView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4C021E221786E240050BBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D56T97Z29X;
+				INFOPLIST_FILE = SwiftNYDialViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.SwiftNYDialViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftNYDialView.app/SwiftNYDialView";
+			};
+			name = Debug;
+		};
+		B4C021E321786E240050BBD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D56T97Z29X;
+				INFOPLIST_FILE = SwiftNYDialViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.SwiftNYDialViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftNYDialView.app/SwiftNYDialView";
+			};
+			name = Release;
+		};
+		B4C021E521786E240050BBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D56T97Z29X;
+				INFOPLIST_FILE = SwiftNYDialViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.SwiftNYDialViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftNYDialView;
+			};
+			name = Debug;
+		};
+		B4C021E621786E240050BBD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D56T97Z29X;
+				INFOPLIST_FILE = SwiftNYDialViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.SwiftNYDialViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftNYDialView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4C021B121786E230050BBD8 /* Build configuration list for PBXProject "SwiftNYDialView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C021DC21786E240050BBD8 /* Debug */,
+				B4C021DD21786E240050BBD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4C021DE21786E240050BBD8 /* Build configuration list for PBXNativeTarget "SwiftNYDialView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C021DF21786E240050BBD8 /* Debug */,
+				B4C021E021786E240050BBD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4C021E121786E240050BBD8 /* Build configuration list for PBXNativeTarget "SwiftNYDialViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C021E221786E240050BBD8 /* Debug */,
+				B4C021E321786E240050BBD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4C021E421786E240050BBD8 /* Build configuration list for PBXNativeTarget "SwiftNYDialViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C021E521786E240050BBD8 /* Debug */,
+				B4C021E621786E240050BBD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4C021AE21786E230050BBD8 /* Project object */;
+}
