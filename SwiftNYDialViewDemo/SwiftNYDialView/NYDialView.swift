@@ -22,6 +22,7 @@ class NYDialView: UIView {
     var panAngle: Double = 0
     
     // MARK: - Life Cycle
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -108,6 +109,7 @@ class NYDialView: UIView {
     }
     
     // MARK: - Private Method
+    
     func getSelectButton() {
         let num = btnList.count
         let start = -Double(1)/Double(num) * .pi / 2;
@@ -164,6 +166,7 @@ class NYDialView: UIView {
     }
     
     // MARK: - GestureRecognizer
+    
     @objc func circleViewGesture(_ gesture: UIPanGestureRecognizer) {
         if gesture.state == UIGestureRecognizer.State.began {
             beginPoint = gesture.location(in: self)
